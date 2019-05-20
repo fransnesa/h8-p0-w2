@@ -1,0 +1,82 @@
+1. Newton Second Law
+//Algoritma
+1. Simpan m dengan nilai 600
+2. Simpan a dengan nilai 2
+3. Simpan F dengan m dikali a`
+4.Tampilkan nilai F
+
+//Pseudocode
+//Store `m` with 600
+//Store `a` with 2
+//Store `F` with any value number
+//Set `F` with `m` multiply `a`
+//Display `F`
+
+
+2. Tahun Kabisat
+//Algoritma
+1. Simpan nilai tahun dengan nilai berapapun
+2. Jika tahun dibagi 4 sisa 0 dan tahun dibagi 100 tidak sisa 0 atau tahun dibagi 4 sisa 0 dan tahun dibagi 100 sisa 0 dan tahun dibagi 400 sisa 0
+3. Tampilkan "Tahun adalah tahun kabisat"
+4.  Selain itu tampilkan "Tahun bukan tahun kabisat"
+
+//Pseudocode
+//Store `tahun` with any value number
+//IF `tahun` modulus 4 is equal 0 and `tahun` modulus 100 is not equal 0 OR `tahun` modulus 4 is equal 0 and `tahun` modulus 100 is equal 0 and `tahun` modulus 400 is equal 0
+	//Display ''Tahun is Tahun Kabisat"
+//ELSE
+	//Display "Tahun is not Tahun Kabisat"
+//END IF
+
+3. Laundry day
+//Algoritma
+1. Simpan baju dengan nilai 20
+2. Simpan nilai index dengan nilai 0
+3. Lakukan perulangan memasukan baju ke mesin cuci
+4. Tambahkan nilai index dengan 1
+5. Berhenti pada saat index is equal baju
+5. Tampilkan nilai index
+
+//Pseudocode
+//Store `baju` with 20
+//Store `index` with 0
+//FOR index is less than  baju 
+	//DO masukan baju ke mesin cuci
+	//Add one to `index`
+//END FOR
+//Display "Baju sebanyak `index` "
+
+4. Periksa Kuku
+//Algoritma
+1. Simpan `jumlah murid` with 40
+2. Simpan `index` with 0
+3. Simpan `panjang` with 0
+4. Simpan `pendek` with 0
+5. Lakukan perulangan untuk mengecek kuku murid
+6. Jika kuku murid panjang 
+7. Lalu Hukum Siswa
+8. `panjang` tambah 1
+9. Selain itu
+10. `pendek` tambah 1
+11. Puji Siswa
+12. Add one to `index`
+12. Berhenti pada saat `index` is equal `jumlah murid`
+13. Display "siswa yang dihukum ada sebanyak `panjang` dan siswa yang tidak dihukum adalah sebanyak `pendek`
+
+ //Pseudocode
+ //Store `jumlah murid` with 40
+ //Store `index with 0
+ //Store `panjang` with 0
+ //Store `pendek` with 0
+ //REPEAT
+	//DO Cek kuku
+	//IF kuku murid is panjang
+		//Display `hukum siswa`
+		//add one to `panjang`
+	//ELSE
+		//Add one to `pendek`
+		//Display `"puji siswa"
+	//END IF
+	//Add one to `index`
+//UNTIL `index` is equal `jumlah murid`
+//Display "siswa yang dihukum ada sebanyak `panjang` dan siswa yang tidak dihukum adalah sebanyak `pendek`
