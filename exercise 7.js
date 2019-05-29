@@ -17,6 +17,8 @@ for (i=1;i<=row2;i++){
 }
 
 
+
+
 console.log("Soal 3");
 for (i=1;i<=row3;i++){
     var bintang3 = "";
